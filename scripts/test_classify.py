@@ -23,6 +23,10 @@ class TestClassify(unittest.TestCase):
             (mk("Will the highest temperature in Seoul be 19°C or higher on November 11?", ["weather"]), "scheduled"),
             (mk("Will Bitcoin be above $95,000 on Nov 17?", ["crypto"]), "scheduled"),
             (mk("Will BTC reach $150k by Nov 30?", ["crypto"]), "by-date"),     # by-date still wins over on-date
+            (mk("Will NVIDIA be the largest company in the world by market cap on January 31?"), "scheduled"),  # not "by" + March
+            (mk("Will X happen by Mar 5?"), "by-date"),
+            (mk("Will X happen by Sept. 30?"), "by-date"),
+            (mk("Will Marseille win by more than one goal?", ["soccer"]), "scheduled"),
         ]
         for m, want in cases:
             self.assertEqual(classify(m)[0], want, m["question"])

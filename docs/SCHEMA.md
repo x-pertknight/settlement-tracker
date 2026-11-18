@@ -9,11 +9,11 @@ One row per sampled market. Cutoff 2026-11-17 00:00 UTC. Public data only.
 | condition_id_or_ticker | Polymarket conditionId, or Kalshi market ticker |
 | category | sports, crypto_updown, crypto_other, weather, politics, macro, other (Polymarket, from tags); Kalshi series category |
 | market_type | Polymarket: binary, line (totals/spreads/props/O-U), multi (neg-risk). Kalshi: API market_type |
-| class | Polymarket only: scheduled / by-date / unclassified (rule in classify.py: question text, tags and series only; hand-check pending) |
+| class | Polymarket only: scheduled / by-date / unclassified (rule in classify.py: question text, tags and series only; 100-market check in RESULTS.md section 3) |
 | path | Polymarket settlement path from resolvedBy (UMA MOOV2 direct, UMA MOOV2 routed, UMA OOV2 routed, V2 OracleAggregator, no resolver, other); Kalshi exchange |
 | event_end_anchor | Polymarket endDate; Kalshi close_time |
 | closed_time | Polymarket closedTime; Kalshi close_time |
-| settlement_time | Polymarket data-api last_update_timestamp (validated against on-chain ConditionResolution on the two MOOV2 paths: 150/150 within 47 s); Kalshi settlement_ts |
+| settlement_time | Polymarket data-api last_update_timestamp (validated against on-chain ConditionResolution on the two MOOV2 paths: 124/124 within 47 s); Kalshi settlement_ts |
 | lag_hours | settlement_time minus event_end_anchor, only where lag_status = in lag |
 | lag_status | in lag; excluded: endDate padded or missing (closedTime earlier than endDate); not validated: API timestamp is not settlement on this path (OOV2 route); not in lag (class or path) |
 | disputed_onchain | Polymarket: yes / no for UMA-path markets closed 11 Oct-17 Nov 2026 (on-chain DisputePrice); outside on-chain window otherwise. The data-api was_disputed field is NOT used (it flags 29 of 691 direct-path questions disputed on-chain). Kalshi: not observable from public data |

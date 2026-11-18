@@ -1,0 +1,101 @@
+id,question,labels,rule_class_at_sampling,rule_class_now,check_class,agree_at_sampling,note
+1345239,Will Threads be #1 Free App in the US Apple App Store on February 13?,1-free-app|pop-culture|app-store|apple|tech|big-tech,scheduled,scheduled,scheduled,yes,
+5220185,Will HotSchedules be #1 Paid App in the US Apple App Store on October 9?,1-paid-app|app|tech|pop-culture|big-tech|app-store|recurring,scheduled,scheduled,scheduled,yes,
+1249321,Will UpScrolled be #2 Free App in the US Apple App Store on January 30?,2-free-app|pop-culture|app-store|apple|tech|big-tech,scheduled,scheduled,scheduled,yes,
+5220201,Will Procreate Pocket be #2 Paid App in the US Apple App Store on October 9?,2-paid-app|app|tech|pop-culture|big-tech|app-store|recurring,scheduled,scheduled,scheduled,yes,
+2176607,Will Oklahoma City Thunder receive the tenth overall pick at the 2026 NBA Draft Lottery?,2026-nba-draft|2026-nba-draft-lottery|nba|basketball|sports|rewards-automation-50-4pt5-50,scheduled,scheduled,scheduled,yes,
+2305310,Will Neuralink have the second highest private market valuation on June 30?,2nd-largest-private-company|finance|privates|big-tech|tech,scheduled,scheduled,scheduled,yes,
+2320754,Will Apple (AAPL) close above $295 on May 22?,aapl-multi-strikes-weekly|aapl|equities|daily|finance|hide-from-new|stocks,scheduled,scheduled,scheduled,yes,
+5613654,Jeonbuk FC to score first vs. Vissel Kobe?,afc-champions-league-elite-2026|sports|games|soccer|afc-champions-league-elite,scheduled,scheduled,scheduled,yes,
+6414470,Spread: Gambia (-5.5),afcq-games|sports|soccer|games|afcq,scheduled,scheduled,scheduled,yes,
+1908408,AHL: San Diego Gulls vs. Bakersfield Condors,ahl-2026|sports|games|hockey|ahl,scheduled,scheduled,scheduled,yes,
+6366839,"Will Gemini Carbon be released on November 24, 2026?",ai|tech|gemini|google|ai-releases|gemini-carbon|gemini-4-carbon,scheduled,scheduled,scheduled,yes,release on a named day (borderline)
+5063433,Will the lowest temperature in Amsterdam be 13°C on September 30?,amsterdam-daily-lowest-temperature|weather|recurring|hide-from-new|daily-temperature|amsterdam|lowest-temperature,scheduled,scheduled,scheduled,yes,
+3945723,Will the highest temperature in Amsterdam be 18°C on August 30?,amsterdam-daily-weather|weather|recurring|hide-from-new|daily-temperature|amsterdam|highest-temperature,scheduled,scheduled,scheduled,yes,
+1333041,Will Amazon (AMZN) close above $240 on February 5?,amzn-multi-strikes-weekly|amzn|equities|daily|finance|hide-from-new|stocks|finance-rewards-500|daily-close,scheduled,scheduled,scheduled,yes,
+6445380,Will the lowest temperature in Ankara be 9°C on November 2?,ankara-daily-lowest-temperature|weather|recurring|hide-from-new|ankara|daily-temperature|lowest-temperature,scheduled,scheduled,scheduled,yes,
+4547069,Will the highest temperature in Ankara be 19°C or below on September 16?,ankara-daily-weather|weather|recurring|hide-from-new|ankara|daily-temperature|highest-temperature,scheduled,scheduled,scheduled,yes,
+3310569,Club Atletico Los Andes vs. Ferro Carril Oeste: 2nd Half O/U 0.5,argpn-games|sports|games|soccer|argpn,scheduled,scheduled,scheduled,yes,
+5769451,Will the lowest temperature in Atlanta be between 50-51°F on October 18?,atlanta-daily-lowest-temperature|weather|recurring|hide-from-new|atlanta|daily-temperature|lowest-temperature,scheduled,scheduled,scheduled,yes,
+5681163,Will the highest temperature in Atlanta be between 82-83°F on October 16?,atlanta-daily-weather|weather|recurring|hide-from-new|atlanta|daily-temperature|highest-temperature,scheduled,scheduled,scheduled,yes,
+2307455,Set 1 Winner: Nava vs Wild,atp|sports|tennis|games,scheduled,scheduled,scheduled,yes,
+3226077,Prashanth/Ramanathan vs. Carou/Gomez: Set 2 Games O/U 8.5,atp-doubles|sports|tennis|games,scheduled,scheduled,scheduled,yes,
+5798967,Will the lowest temperature in Austin be between 46-47°F on October 19?,austin-daily-lowest-temperature|weather|recurring|hide-from-new|daily-temperature|austin|lowest-temperature,scheduled,scheduled,scheduled,yes,
+1871985,Will the highest temperature in Austin be between 70-71°F on April 9?,austin-daily-weather|weather|recurring|hide-from-new|daily-temperature|austin|rewards-automation-50-4pt5-50|highest-temperature,scheduled,scheduled,scheduled,yes,
+3855937,TSV Hartberg vs. SV Ried: 1st Half O/U 4.5 Total Corners,austria-bundesliga-2026|sports|soccer|games|austria-bundesliga,scheduled,scheduled,scheduled,yes,
+6000164,Will Gabala FK win on 2026-10-23?,aze1-games|sports|games|soccer|aze1,scheduled,scheduled,scheduled,yes,
+4368522,Shahdag Qusar FK vs. FK Karvan Yevlakh: Shahdag Qusar FK O/U 0.5,aze2-games|sports|soccer|games|aze2,scheduled,scheduled,scheduled,yes,
+3747239,Will the lowest temperature in Beijing be 19°C on August 21?,beijing-daily-lowest-temperature|weather|recurring|hide-from-new|daily-temperature|beijing|lowest-temperature,scheduled,scheduled,scheduled,yes,
+2074555,Will the highest temperature in Beijing be 24°C on April 27?,beijing-daily-weather|weather|recurring|hide-from-new|daily-temperature|beijing|rewards-automation-100-1|highest-temperature,scheduled,scheduled,scheduled,yes,
+3306564,Royal Charleroi SC to score first vs. Oud-Heverlee Leuven?,bel1-games|sports|games|soccer|bel1,scheduled,scheduled,scheduled,yes,
+6226873,Exact Score: FCV Dender EH 3 - 4 Jong KRC Genk?,bel2-games|sports|games|soccer|bel2,scheduled,scheduled,scheduled,yes,
+2446113,"Will claude-opus-4-6-thinking be the best AI model on June 13, 2026?",best-ai-model|ai|tech,scheduled,scheduled,scheduled,yes,
+1260130,Bhutan Tri-Series: Bhutan Women vs Hong Kong Women - Toss Match Double Hong Kong Women Winner,bhutan-tri-series|sports|cricket|games|bhutan-tri-series,scheduled,scheduled,scheduled,yes,
+3080038,Bitcoin ETF Flows on July 28?,bitcoin-etf-flows-daily|bitcoin|daily|etf|crypto|recurring|hide-from-new,scheduled,scheduled,scheduled,yes,
+7030478,"Will Bitcoin reach $75,000 on November 14?",bitcoin-hit-price-daily|crypto|crypto-prices|recurring|hide-from-new|bitcoin|daily|today|hit-price,scheduled,scheduled,by-date,NO,"one-day hit window, can resolve early (borderline)"
+3199873,"Bitcoin above 65,600 on July 29, 6AM ET?",bitcoin-multi-strikes-hourly|bitcoin|1h|multi-strikes|crypto|crypto-prices|recurring|hide-from-new,scheduled,scheduled,scheduled,yes,
+2007047,"Will the price of Bitcoin be between $74,000 and $76,000 on April 24?",bitcoin-neg-risk-weekly|bitcoin|weekly|neg-risk|crypto|crypto-prices|recurring|hide-from-new,scheduled,scheduled,scheduled,yes,
+5317357,Partizan vs. BC Vienna,bkaba|sports|games|basketball|bkaba,scheduled,scheduled,scheduled,yes,
+2345295,"BNB Up or Down - May 25, 3:15AM-3:30AM ET",bnb-up-or-down-15m|up-or-down|crypto-prices|hide-from-new|recurring|crypto|bnb|15m,scheduled,scheduled,scheduled,yes,
+4676228,"BNB Up or Down - September 19, 4:00AM-8:00AM ET",bnb-up-or-down-4h|up-or-down|crypto-prices|hide-from-new|recurring|crypto|bnb|4h,scheduled,scheduled,scheduled,yes,
+2529062,"BNB Up or Down - June 14, 1:35AM-1:40AM ET",bnb-up-or-down-5m|up-or-down|crypto-prices|hide-from-new|recurring|crypto|bnb|5m,scheduled,scheduled,scheduled,yes,
+3916781,Will the #1 global Netflix show have at least 7 million views this week?,1-show-on-netflix-views-this-week|movies|pop-culture|netflix|top-netflix|recurring,by-date,by-date,scheduled,NO,"fixed weekly/monthly chart, cannot resolve early"
+6096325,"Will ""SaWaDiKa - LISA"" be the #1 song this week?",1-spotify-song|song|music|album|pop-culture|spotify|recurring,by-date,by-date,scheduled,NO,"fixed weekly/monthly chart, cannot resolve early"
+2365070,"Will ""Stolen Baby: The Murder of Heidi Broussard"" be the top US Netflix movie this week?",1-us-netflix-movie|pop-culture|netflix|top-netflix|rewards-50-4pt5-20,by-date,by-date,scheduled,NO,"fixed weekly/monthly chart, cannot resolve early"
+1363143,"Will ""Star Search"" be the top US Netflix show this week?",1-us-netflix-show|movies|pop-culture|netflix|top-netflix|rewards-20-4pt5-50,by-date,by-date,scheduled,NO,"fixed weekly/monthly chart, cannot resolve early"
+5394426,"Will ""Animals"" be the #2 global Netflix movie this week?",2-netflix-movie|movies|pop-culture|netflix|recurring|top-netflix,by-date,by-date,scheduled,NO,"fixed weekly/monthly chart, cannot resolve early"
+2251548,"Will ""Should I Marry A Murderer?"" be the #2 global Netflix show this week?",2-netflix-show|pop-culture|movies|top-netflix|netflix,by-date,by-date,scheduled,NO,"fixed weekly/monthly chart, cannot resolve early"
+5219956,Will Taylor Swift have the second-greatest number of monthly Spotify listeners this month?,2-spotify-artist-monthly|music|pop-culture|spotify|recurring,by-date,by-date,scheduled,NO,"fixed weekly/monthly chart, cannot resolve early"
+6096335,"Will ""Nicole Kidman - ADÉLA"" be the #2 song this week?",2-spotify-song|song|music|album|pop-culture|spotify|recurring,by-date,by-date,scheduled,NO,"fixed weekly/monthly chart, cannot resolve early"
+949015,"Will ""Paw Patrol: The Mighty Movie"" be the #2 US Netflix movie this week? (December 23, 2025)",2-us-netflix-movie|movies|top-netflix|pop-culture|netflix,by-date,by-date,scheduled,NO,"fixed weekly/monthly chart, cannot resolve early"
+6701260,"Will ""Nobody Wants This: Season 3"" be the #2 US Netflix show this week?",2-us-netflix-show|movies|pop-culture|netflix|recurring|top-netflix,by-date,by-date,scheduled,NO,"fixed weekly/monthly chart, cannot resolve early"
+1237550,Will Alphabet be the third-largest company in the world by market cap on February 28?,3rd-largest-company|business|finance|tech|economy|big-tech|rewards-20-4pt5-50,by-date,scheduled,scheduled,NO,"rule bug: ""by market cap"" read as by + March"
+2231279,Will Donald Trump announce Ken Paxton as the next United States Attorney General by December 31?,ag-announce|politics|trump|trump-cabinet|zeldin|ag|bondi,by-date,by-date,by-date,yes,
+3275539,"Will OpenAI’s Astra model be released by September 30, 2026?",ai|gpt|tech|openai|sam-altman|ai-releases|astra,by-date,by-date,by-date,yes,
+643244,Will Cristiano Ronaldo be the #1 searched athlete on Google this year?,best-of-2025|pop-culture|google|tech|trends|google-search,by-date,by-date,scheduled,NO,annual ranking published once
+3055282,Will The Odyssey have the 3rd best domestic opening weekend in 2026?,biggest-opening-weekend|movies|pop-culture|the-odyssey|spider-man,by-date,by-date,unclassified,NO,"ranking over a whole year, can be decided early either way"
+3362542,Will the total domestic gross for Spider-Man: Brand New Day be between 900m and 920m by August 31?,box-office-total-gross|movies|pop-culture|box-office|spider-man,by-date,by-date,scheduled,NO,"measured at a fixed date, range bucket"
+516847,Sam Altman out as OpenAI CEO in 2025?,business|economy|2025-predictions|ai|big-tech|finance,by-date,by-date,by-date,yes,
+921948,Liberal majority in Canadian Parliament by June 30?,canada|world|politics,by-date,by-date,by-date,yes,
+544768,Justin Bieber rehab in 2025?,celebrities|pop-culture,by-date,by-date,by-date,yes,
+5960238,"ChatGPT Outage by October 31, 2026?",chatgpt-outage-by|ai|gpt|tech|openai|outage|chatgpt|recurring,by-date,by-date,by-date,yes,
+4801476,"Will the next Claude Opus model be released by September 23, 2026?",claude-opus-released|ai|anthropic|tech|recurring|claude|opus|ai-releases,by-date,by-date,by-date,yes,
+1285739,Will Doppler be above $680 by end of February?,counter-strike-doppler-index-multistrike-monthly|collectibles|multi-strikes|recurring|hide-from-new|monthly|digital-assets|counter-strike-2,by-date,by-date,scheduled,NO,"price level at month end, not a hit market"
+536563,Will only OP_CAT be activated in 2025?,crypto|bitcoin|other,by-date,by-date,by-date,yes,
+3145180,"Will there be at least 20,000 cyclosporiasis cases in the U.S. by August 31, 2026?",cyclosporiasis-cases|diarea|science|weather|diarrea|lettuce|outbreak|diarrhea|explosive|pandemics|cyclosporiasis|explosive-diarrhea|recurring,by-date,by-date,by-date,yes,
+1140308,Odds of Khamenei out by January 31 over 30% on Sunday?,derivatives|middle-east|iran|geopolitics|ali-khamenei|trump|politics,by-date,by-date,scheduled,NO,"measured on a fixed day (Sunday); the ""by January 31"" belongs to the underlying market"
+4187821,Will Virginia have D4 (Exceptional Drought) this week?,drought-d4-weekly|weather|recurring|drought,by-date,by-date,scheduled,NO,weekly Drought Monitor release
+5219504,"Will Elon post ""Iran"" or ""Iranian"" on X this week?",elon-tweet-mention|elon|tech|tweet|twitter|big-tech|mention-markets|recurring|elon-tweets|tweets-markets,by-date,by-date,by-date,yes,
+4046619,Will Epic Games' valuation hit (HIGH) $13.5B by September 30?,epic-games-valuation|finance|privates|epic-games|recurring,by-date,by-date,by-date,yes,
+701657,Will Microsoft (MSFT) close at $480–500 in 2025?,finance|stocks|hide-from-new|equities|msft|stock-prices|yearly-hit,by-date,by-date,scheduled,NO,year-end close in a range
+3564692,Will Ukraine re-enter Obratne or Temyrivka by September 30?,geopolitics|ukraine-map,by-date,by-date,by-date,yes,
+629570,Will the Democrats win the Oklahoma governor race in 2026?,governor-tossups|midterm-tossups|oklahoma-governor|oklahoma-midterm|governor-midterms|politics|elections|us-presidential-election|midterms,by-date,by-date,scheduled,NO,"election, fixed event"
+2047345,"Will the Ornn H200 Index hit $4.00 (HIGH) by May 31, 2026?",h200-rental-price|finance|nvidia|business|ai|ornn|h200,by-date,by-date,by-date,yes,
+2875105,"Will the Ornn H200 Index hit $7.00 (HIGH) by December 31, 2026?",h200-rental-price-hit|recurring|ai|h200|ornn|nvidia|compute|finance|business,by-date,by-date,by-date,yes,
+3862731,"Will Houthis target Saudi Arabia by August 31, 2026?",houthis-target-saudi-arabia-by|iran|qatar|military|geopolitics|middle-east|saudi-arabia|diplomacy-ceasefire|military-action|military-strikes,by-date,by-date,by-date,yes,
+1632155,Houthis successfully target shipping by March 31?,houthis-target-shipping|iran|middle-east|israel|oil|houthis|shipping|geopolitics|ship|iranian-leadership-regime|iran-offensive-actions|trump-iran|israel-x-iran,by-date,by-date,by-date,yes,
+3009269,Farsi Island no longer under Iranian control by August 31?,iran|khamenei|geopolitics|iranian-leadership-regime|trump-iran|diplomacy-ceasefire|mojtaba-khamenei|strait-of-hormuz,by-date,by-date,by-date,yes,
+1706290,"Will Iran strike Israel by April 30, 2026?",iran-military-action-against|strike|iran|middle-east|israel|geopolitics|military-strikes|iran-offensive-actions|regional-spillover|trump-iran|israel-x-iran,by-date,by-date,by-date,yes,
+5419929,"Will Iran target Iraq by October 15, 2026?",iran-target-iraq-by|iran|iraq|military|geopolitics|middle-east|military-action|military-strikes,by-date,by-date,by-date,yes,
+2735562,Iran successfully targets shipping by July 1?,iran-targets-shipping-by|iran|ship|seize|strike|geopolitics|trump-iran|diplomacy-ceasefire,by-date,by-date,by-date,yes,
+964899,Will NVIDIA be the largest company in the world by market cap on January 31?,largest-company|business|finance|tech|economy|big-tech,by-date,scheduled,scheduled,NO,"rule bug: ""by market cap"" read as by + March"
+1974947,Will Google have the #2 AI model at the end of May 2026 (Style Control On)?,2-ai-model-style-control-on|tech|big-tech|rewards-20-4pt5-50|ai,unclassified,unclassified,scheduled,NO,
+1820314,Will OpenAI have the second-best Coding AI model at the end of April 2026?,2-coding-ai|coding|rewards-20-4pt5-50|big-tech|ai|tech,unclassified,unclassified,scheduled,NO,
+1664441,Will Moonshot have the #3 AI model at the end of April 2026 (Style Control On)?,3-ai-model-style-control-on|ai|tech|big-tech|rewards-20-4pt5-50,unclassified,unclassified,scheduled,NO,
+2134828,Will Apple (AAPL) close at $290-$295 on the final day of trading of the week of May 4 – May 8?,aapl-neg-risk-weekly|aapl|stock-prices|equities|hide-from-new|stocks|multi-strikes|weekly|finance,unclassified,unclassified,scheduled,NO,
+1285712,Will any Anthropic Claude model score at least 30% on the FrontierMath Exam?,ai|anthropic|tech|big-tech|math|claude|claude-5|mythos,unclassified,unclassified,unclassified,yes,
+5131565,"Will Airbnb, Inc. (ABNB) hit (HIGH) $156 in September?",airbnb-hit-price-monthly|finance|stocks|recurring|hit-price|monthly|hide-from-new|equities|abnb|finance-updown|pyth-finance,unclassified,unclassified,by-date,NO,
+2135219,"Will Airbnb, Inc. (ABNB) hit (LOW) $132 Week of May 4 2026?",airbnb-hit-price-weekly|finance|weekly|hit-price|hide-from-new|finance-updown|pyth-finance|stocks|equities|abnb|rewards-automation-50-4pt5-50,unclassified,unclassified,by-date,NO,
+559825,Interstellar object confirmed aliens?,aliens|science|pop-culture|space,unclassified,unclassified,unclassified,yes,
+1974096,"Will ""Stock market"" be said during the next episode of the All-In Podcast?",all-in-podcast|mention-markets|tech|big-tech|youtube|finance|pop-culture,unclassified,unclassified,scheduled,NO,
+2073948,"Will Amazon.com, Inc. (AMZN) hit (LOW) $264 in May?",amazon-hit-price-monthly|finance|monthly|hit-price|hide-from-new|finance-updown|pyth-finance|stocks|equities|amzn|rewards-automation-100-1,unclassified,unclassified,by-date,NO,
+2202872,"Will Amazon.com, Inc. (AMZN) hit (HIGH) $300 Week of May 11 2026?",amazon-hit-price-weekly|finance|weekly|hit-price|hide-from-new|finance-updown|pyth-finance|stocks|equities|amzn|rewards-automation-50-4pt5-50,unclassified,unclassified,by-date,NO,
+662967,Will Amazon (AMZN) close above $230 end of November?,amazon-multi-strikes-monthly|stock-prices|amzn|equities|finance|hide-from-new|stocks|multi-strikes|monthly,unclassified,unclassified,scheduled,NO,
+5475402,Will Amazon (AMZN) finish week of October 12 above $280?,amazon-multi-strikes-weekly|amzn|equities|finance|hide-from-new|stocks|multi-strikes|weekly,unclassified,unclassified,scheduled,NO,
+922439,Will Amazon (AMZN) close at $235-$240 on the final day of trading of the week of Dec 15 – Dec 19?,amzn-neg-risk-weekly|amzn|stock-prices|equities|hide-from-new|stocks|multi-strikes|weekly|finance,unclassified,unclassified,scheduled,NO,
+1387650,"Will Andrew Tate post 370-399 posts from February 20 to February 27, 2026?",andrew-tate-tweets|andrew-tate|politics,unclassified,unclassified,scheduled,NO,
+1836243,Will Erika Langarica as Marin Kitagawa (My Dress-Up Darling Season 2) win Best Anime Voice Artist Performance (Latin Spanish) at the 2026 Crunchyroll Anime Awar,anime|movies|pop-culture|awards,unclassified,unclassified,scheduled,NO,
+3350359,Will Anthropic’s valuation be between $1.25T and $1.50T at the end of August 2026?,anthropic-s-valuation|claude|finance|privates|anthropic|anthropic-ipo,unclassified,unclassified,scheduled,NO,
+3866136,Will Apple (AAPL) hit (LOW) $280 in September?,apple-hit-price-monthly|finance|stocks|hit-price|monthly|hide-from-new|equities|aapl|finance-updown|pyth-finance|recurring,unclassified,unclassified,by-date,NO,
+6991355,Will Apple (AAPL) hit (HIGH) $356 Week of November 9 2026?,apple-hit-price-weekly|finance|stocks|hit-price|hide-from-new|weekly|equities|aapl|finance-updown|pyth-finance,unclassified,unclassified,by-date,NO,
+3650064,Will Apple (AAPL) finish week of August 17 above $325?,apple-multi-strikes-weekly|aapl|equities|finance|hide-from-new|stocks|multi-strikes|weekly,unclassified,unclassified,scheduled,NO,

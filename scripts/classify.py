@@ -13,7 +13,9 @@ import csv, json, random, re, sys
 FORBIDDEN = {"endDate", "closedTime", "umaEndDate", "outcomePrices",
              "lastTradePrice", "umaResolutionStatus", "umaResolutionStatuses"}
 
-MONTH = r"(jan|feb|mar|apr|may|jun|jul|aug|sep|sept|oct|nov|dec)[a-z]*"
+# Whole words only: "by market cap" must not read as "by" + March (fixed 18 Nov 2026 after the hand-check).
+MONTH = (r"(jan(uary)?|feb(ruary)?|mar(ch)?|apr(il)?|may|june?|july?|aug(ust)?|"
+         r"sep(t(ember)?)?|oct(ober)?|nov(ember)?|dec(ember)?)\b")
 DATE_EXPR = rf"({MONTH}|end of|the end of|q[1-4]\b|20\d\d|\d{{1,2}}/\d{{1,2}})"
 # "by"/"before" must be followed by a date, so "win by 10 points" does not match.
 BY_DATE = re.compile(

@@ -2,10 +2,13 @@
 """Final dispute table from on-chain UMA events (input: s2d_disputed_questions.json).
 Rules: rounds = request timestamps; the market outcome is the Settle of the LATEST round,
 unless that round is disputed: a first dispute means a new round is still to come (pending),
-a second dispute means the market waits for the UMA vote (outcome = that round's Settle).
+a second dispute means the market waits for the UMA vote (outcome = that round's Settle,
+unless the vote returns "too early": then the market is still open until it is asked again).
 Questions whose round-1 proposal is not in the window are excluded (first answer unknown).
 Usage: python3 -I 09_disputes_final.py s2d_disputed_questions.json out.json"""
 import json, sys, collections
+# UMA "too early" answer (min int256). The adapter does not settle on it: it asks again.
+IGNORE = str(-2**255)
 PATH = {"0x65070be9": "MOOV2 direct", "0x69c47de9": "MOOV2 routed", "0x2f5e3684": "OOV2 routed"}
 
 def q(xs, p):
@@ -32,7 +35,9 @@ for r in d:
     if len(rounds) >= 3 and not D.get(L): o["reasked_after_vote_ignore"] += 1
     first = min(P[r1])[1]
     if D.get(L):
-        if nd >= 2 and S.get(L): final, how = min(S[L])[1], "vote"
+        if nd >= 2 and S.get(L) and str(min(S[L])[1]) == IGNORE:
+            final, how = None, "awaiting_reask_after_vote"  # vote said "too early", new round not yet opened
+        elif nd >= 2 and S.get(L): final, how = min(S[L])[1], "vote"
         else: final, how = None, "awaiting_vote" if nd >= 2 else "awaiting_new_round"
     else:
         final, how = (min(S[L])[1], "settled") if S.get(L) else (None, "awaiting_settle")

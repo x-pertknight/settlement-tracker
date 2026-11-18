@@ -3,17 +3,18 @@
 "MOOV2 direct": {
 "disputed": 692,
 "second_dispute": 38,
-"market_settled": 636,
-"decided_by_vote": 31,
-"outcome_changed": 182,
+"market_settled": 635,
+"decided_by_vote": 30,
+"outcome_changed": 181,
 "excluded_no_round1_proposal": 2,
 "awaiting_new_round": 54,
 "reasked_after_vote_ignore": 5,
+"awaiting_reask_after_vote": 1,
 "awaiting_vote": 2,
-"outcome_changed_pct": 28.6,
+"outcome_changed_pct": 28.5,
 "dispute_to_market_settle_h": {
 "median": 1.4,
-"p90": 17.2
+"p90": 16.4
 }
 },
 "MOOV2 routed": {
@@ -46,14 +47,15 @@
 "All": {
 "disputed": 1037,
 "second_dispute": 49,
-"market_settled": 930,
-"decided_by_vote": 34,
-"outcome_changed": 224,
+"market_settled": 929,
+"decided_by_vote": 33,
+"outcome_changed": 223,
 "excluded_no_round1_proposal": 2,
 "awaiting_new_round": 105,
 "reasked_after_vote_ignore": 13,
+"awaiting_reask_after_vote": 1,
 "awaiting_vote": 2,
-"outcome_changed_pct": 24.1,
+"outcome_changed_pct": 24.0,
 "dispute_to_market_settle_h": {
 "median": 2.1,
 "p90": 30.5
@@ -7921,8 +7923,8 @@
 "path": "MOOV2 direct",
 "qid": "0xa8c457ab45273e886f669a4c8d7d3cd423a96486bb5326fcf15c31ec856c1966",
 "first": "1000000000000000000",
-"final": "-57896044618658097711785492504343953926634992332820282019728792003956564819968",
-"how": "vote",
+"final": null,
+"how": "awaiting_reask_after_vote",
 "category": "politics",
 "mtype": "binary"
 },

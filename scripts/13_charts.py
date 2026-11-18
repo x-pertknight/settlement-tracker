@@ -45,18 +45,19 @@ finish(fig, "Who resolves Polymarket markets",
 
 # 2. Outcome changed after a dispute. Source: data/disputes/disputes_final.json.
 fig, ax = plt.subplots(figsize=(16.4, 7.1)); fig.subplots_adjust(left=0.31, right=0.97, top=0.8, bottom=0.21)
-hbar(ax, ["UMA direct (n = 636)", "UMA neg-risk route (n = 283)", "UMA legacy route (n = 11)", "All (n = 930)"],
-     [28.6, 14.5, 9.1, 24.1], BLUE, lambda v: f"{v:.1f}%", 36)
+hbar(ax, ["UMA direct (n = 635)", "UMA neg-risk route (n = 283)", "UMA legacy route (n = 11)", "All (n = 929)"],
+     [28.5, 14.5, 9.1, 24.0], BLUE, lambda v: f"{v:.1f}%", 36)
 ax.xaxis.set_major_formatter(FuncFormatter(lambda v, _: f"{v:.0f}%"))
 finish(fig, "Disputed Polymarket markets: 24% settled on a different outcome than first proposed",
-       "Of disputed markets that had settled by 17 Nov 2026 (930 of 1,037; 107 still open are not counted), the share whose final outcome "
+       "Of disputed markets that had settled by 17 Nov 2026 (929 of 1,037; 108 still open are not counted), the share whose final outcome "
        "differs from the first proposed answer. On-chain UMA events, 11 Oct to 17 Nov 2026. Disputes are 0.07% of 1.43M questions proposed in the same window.",
        "2_disputes.png")
 
 # 3. Median lag by category. Polymarket: data/stage7/s7_pm_lag.json pm_lag_by_cat. Kalshi: data/stage4/kalshi_trades.jsonl.gz.
 LOG_T = [3, 15, 60, 240, 1440, 5760]; LOG_L = ["3 min", "15 min", "1 h", "4 h", "1 d", "4 d"]
 def fmt_min(v):
-    return f"{v:.0f} min" if v < 60 else f"{v/60:.1f} h"
+    if v >= 60: return f"{v/60:.1f} h"
+    return (f"{v:.1f}".rstrip("0").rstrip(".") if v < 10 else f"{v:.0f}") + " min"  # keep 2.5 min, not "2 min"
 fig, axes = plt.subplots(1, 2, figsize=(20, 7.6)); fig.subplots_adjust(left=0.1, right=0.98, top=0.8, bottom=0.2, wspace=0.4)
 pm = [("Crypto (n 391)", 12.6), ("Macro (n 50)", 122.4), ("Sports (n 553)", 241.8), ("Weather (n 269)", 622.8), ("Politics (n 31)", 1453.8)]
 ka = [("Crypto (n 25)", 2.5), ("Sports (n 25)", 4.0), ("Commodities (n 25)", 63.8), ("Weather (n 43)", 70.6),

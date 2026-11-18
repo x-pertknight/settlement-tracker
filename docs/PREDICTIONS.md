@@ -1,6 +1,6 @@
 # Settlement tracker v1: preregistered predictions
 
-v1 written 2026-11-17, before any collection. v2 (same day) updates denominators after the day-1 gates (GATES_REPORT.md, BRIEF_CHANGES.md). v3 (same day) applies decision A (Polymarket event end). v4 (same day) applies decision B (free path only, no Dune).
+v1 written 2026-11-17, before any collection. v2 (same day) updates denominators after the day-1 gates (gate report and decision log, working files not included in this repo). v3 (same day) applies decision A (Polymarket event end). v4 (same day) applies decision B (free path only, no Dune).
 Study cutoff 2026-11-17 00:00 UTC. Window: resolved markets 6 to 12 months before cutoff; Polymarket window filtered on closedTime.
 Rule for v2: predicted ranges are unchanged from v1. Only denominators changed. Where gate data already touched a prediction, it is marked, not rewritten.
 All rates are reported by stratum (category x market type), because the Polymarket list is dominated by short-duration markets.
@@ -37,7 +37,7 @@ All rates are reported by stratum (category x market type), because the Polymark
 - #7: Polymarket inclusive/exclusive now on the primary lag, UMA-path markets only; pending = proposed but not settled at cutoff.
 - #9, #10: window ends at the earlier of endDate (scheduled) and first proposal time, never closedTime. Gate 3 coverage marked invalid.
 - No new predictions added for the primary lag (proposal to settlement). Adding them now would come after seeing the decision-A evidence; if wanted, add them as v3 additions with that note before collection.
-- Depends on gaps A1 to A6 in BRIEF_CHANGES.md (class rule, selection bias, padded endDate, non-UMA paths, resets).
+- Depends on gaps A1 to A6 in the decision log (class rule, selection bias, padded endDate, non-UMA paths, resets).
 
 ## What changed from v3 (decision B: free path only)
 - #7: Polymarket half moved to v2 (historical proposal-to-settlement lag not recoverable free). Kalshi half kept.
