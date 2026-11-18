@@ -44,6 +44,16 @@ Full tables: [RESULTS.md](RESULTS.md). Preregistered predictions and how they sc
 - Kalshi challenge history is not public, so Kalshi has no dispute statistics.
 - Admin override frequency and holders are not measured in this release.
 
+## How these numbers relate to my earlier work
+
+I have published other numbers on UMA disputes. They do not match the ones above because they count different things. This study covers Polymarket's three main UMA paths from 11 October to 17 November 2026 and works at market level. It compares the final outcome of each disputed market with the first proposal.
+
+**About 14% of disputes ended on a different outcome.** The source is The Missing Greek, in [prediction-market-integrity](https://github.com/x-pertknight/prediction-market-integrity). The scope is 973 disputes on Polymarket's classic resolution adapters, rebuilt from public Polygon RPC. The window is April 2025 to July 2026. The unit is the disputed question, final outcome against original proposal, and the result is 136 of 973, or 14.0%. It differs from the 24% here because it covers the older adapters over an earlier period that does not overlap with this one. Here 1,019 of the 1,037 disputes are on the two paths that use the newer managed oracle.
+
+**54% reset, 22% overturned, 24% upheld.** The source is [uma-disputes-live](https://github.com/x-pertknight/uma-disputes-live), as rebuilt on 17 November 2026. The scope is every disputed and settled price request on UMA's OptimisticOracleV2 and ManagedOptimisticOracleV2 on Polygon, whoever made the request, 4,423 in total. The window is the 365 days to 17 November 2026. The unit is the single price request, not the market. Reset means the vote said too early (54.2%). Overturned means the vote ruled on the facts against the proposal (22.2%). Upheld means the vote confirmed the proposal (23.6%). It differs because it stops at what the vote said about one request. This study follows the market to its final outcome, so a reset that later settles on the first answer counts here as unchanged.
+
+**The dispute rate from my Dune dashboard is not quoted here.** The dashboard is [UMA Oracle, Base Rates vs Anecdotes](https://dune.com/xpertknight/uma-oracle-base-rates-vs-anecdotes). Its query counts every price request and assertion on UMA's optimistic oracles on Polygon since they started, across all three oracle versions, and its dispute rate is disputed requests divided by all requests. That is a lifetime rate per request for every requester. The 0.07% here is one window of 37 days on three Polymarket paths. The stored results of the dashboard had expired when I wrote this section, so I could not confirm its figure and I leave it out.
+
 ## Files
 
 - `data/settlement_tracker_v1_markets.csv.gz`: one row per sampled market, both venues; schema in `docs/SCHEMA.md`.
