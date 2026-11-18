@@ -16,7 +16,7 @@ One row per sampled market. Cutoff 2026-11-17 00:00 UTC. Public data only.
 | settlement_time | Polymarket data-api last_update_timestamp (validated against on-chain ConditionResolution on the two MOOV2 paths: 150/150 within 47 s); Kalshi settlement_ts |
 | lag_hours | settlement_time minus event_end_anchor, only where lag_status = in lag |
 | lag_status | in lag; excluded: endDate padded or missing (closedTime earlier than endDate); not validated: API timestamp is not settlement on this path (OOV2 route); not in lag (class or path) |
-| disputed_onchain | Polymarket: yes / no for UMA-path markets closed 11 Oct-17 Nov 2026 (on-chain DisputePrice); outside on-chain window otherwise. The data-api was_disputed field is NOT used (it missed 11 of 11 on-chain disputes). Kalshi: not observable from public data |
+| disputed_onchain | Polymarket: yes / no for UMA-path markets closed 11 Oct-17 Nov 2026 (on-chain DisputePrice); outside on-chain window otherwise. The data-api was_disputed field is NOT used (it flags 29 of 691 direct-path questions disputed on-chain). Kalshi: not observable from public data |
 | sample | how the row was drawn |
 | weight | expansion weight. Polymarket: stratum count in the equal-probability S1 sample / rows drawn, times N_est / S1 size (N_est ~5.48M markets in window). Kalshi: 86,400 / 300 = 288 (random 60-second windows) |
 | cutoff | study cutoff |
