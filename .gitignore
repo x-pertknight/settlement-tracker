@@ -1,0 +1,4 @@
+# Output of scripts/operator_logger.py: admin events can carry wallet addresses, keep it local
+operator_log/
+__pycache__/
+*.pyc

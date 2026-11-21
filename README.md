@@ -52,7 +52,7 @@ I have published other numbers on UMA disputes. They do not match the ones above
 
 **54% reset, 22% overturned, 24% upheld.** The source is [uma-disputes-live](https://github.com/x-pertknight/uma-disputes-live), as rebuilt on 17 November 2026. The scope is every disputed and settled price request on UMA's OptimisticOracleV2 and ManagedOptimisticOracleV2 on Polygon, whoever made the request, 4,423 in total. The window is the 365 days to 17 November 2026. The unit is the single price request, not the market. Reset means the vote said too early (54.2%). Overturned means the vote ruled on the facts against the proposal (22.2%). Upheld means the vote confirmed the proposal (23.6%). It differs because it stops at what the vote said about one request. This study follows the market to its final outcome, so a reset that later settles on the first answer counts here as unchanged.
 
-**The dispute rate from my Dune dashboard is not quoted here.** The dashboard is [UMA Oracle, Base Rates vs Anecdotes](https://dune.com/xpertknight/uma-oracle-base-rates-vs-anecdotes). Its query counts every price request and assertion on UMA's optimistic oracles on Polygon since they started, across all three oracle versions, and its dispute rate is disputed requests divided by all requests. That is a lifetime rate per request for every requester. The 0.07% here is one window of 37 days on three Polymarket paths. The stored results of the dashboard had expired when I wrote this section, so I could not confirm its figure and I leave it out.
+**The dispute rate from my earlier Dune dashboard is not quoted here.** That dashboard, UMA Oracle, Base Rates vs Anecdotes, counts every price request and assertion on UMA's optimistic oracles on Polygon since they started, across all three oracle versions, and its dispute rate is disputed requests divided by all requests. That is a lifetime rate per request for every requester. The 0.07% here is one window of 37 days on three Polymarket paths. When I checked on 18 November 2026 the stored results of the dashboard had expired, so I could not confirm its figure and I leave it out.
 
 ## Files
 
@@ -64,3 +64,7 @@ I have published other numbers on UMA disputes. They do not match the ones above
 - `data/class_check_100.csv`: the 100-market check of the class rule.
 
 No wallet-level data is published. Public endpoints only: Polymarket Gamma, data-api and CLOB; Kalshi trade API; a public Polygon RPC.
+
+## License
+
+Code is MIT licensed. Text and data are CC BY 4.0.
