@@ -54,6 +54,16 @@ I have published other numbers on UMA disputes. They do not match the ones above
 
 **The dispute rate from my earlier Dune dashboard is not quoted here.** That dashboard, UMA Oracle, Base Rates vs Anecdotes, counts every price request and assertion on UMA's optimistic oracles on Polygon since they started, across all three oracle versions, and its dispute rate is disputed requests divided by all requests. That is a lifetime rate per request for every requester. The 0.07% here is one window of 37 days on three Polymarket paths. When I checked on 18 November 2026 the stored results of the dashboard had expired, so I could not confirm its figure and I leave it out.
 
+## Reproduce
+
+[![reproduce](https://github.com/x-pertknight/settlement-tracker/actions/workflows/reproduce.yml/badge.svg)](https://github.com/x-pertknight/settlement-tracker/actions/workflows/reproduce.yml)
+
+`./reproduce.sh` runs offline with standard library Python, and CI runs it on every push. It checks the data files against `data/SHA256SUMS`, runs the unit tests, reruns the class rule on the 100 market check, and recomputes from the shipped data the dispute figures of finding 1 (1,037 disputed, 929 settled, 223 changed, 24.0%, 108 open, 33 set by the vote, the 98 settled disputes on one match, the 65 disputes in one minute and the 16.6% to 35.0% interval over 199 hours) and the lag figures. The dispute times and Polymarket events it needs are in `data/disputes_timing.csv`; how that file was fetched is in `docs/SCHEMA.md`.
+
+It does not cover figures whose inputs are not shipped: the 1.43M denominator and the 0.07% rate, the split by what the vote said (660, 580, 169 of 243), the path mix, the Kalshi intervals, the timestamp validation and the money waiting snapshots. `scripts/15_check_headlines.py` prints that list with the file each one needs.
+
+Preregistration: `docs/PREDICTIONS.md` says v1 was written on 2026-11-17 before any collection and revised to v4 the same day after the day 1 gates. No hash of any version was recorded, and the predictions entered git in the same commit as the data (d354661). The order rests on the recorded dates only, not on a hash or on git order.
+
 ## Files
 
 - `data/settlement_tracker_v1_markets.csv.gz`: one row per sampled market, both venues; schema in `docs/SCHEMA.md`.
