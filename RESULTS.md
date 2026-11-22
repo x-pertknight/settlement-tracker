@@ -58,7 +58,7 @@ The 24.0% is a share of the 929 disputed markets that had settled by the cutoff.
 
 So most disputes (64%) are about timing, and in those the first answer nearly always stands. Where the vote ruled on the facts, the final outcome differs in 169 of 243 settled markets (70%). The 24.0% is the mix of the two.
 
-**Disputes come in bursts, so the 24.0% is less precise than 929 markets suggest.** The largest burst is 65 disputes in one minute on one football match (37 exact score questions, 28 spread and total questions). All 65 were voted "too early" and were still open at the cutoff, so they are 65 of the 108 open markets and do not enter the 24.0% or its interval. Among settled markets, one match produced 62 disputes in two consecutive minutes and 98 in total. Resampling whole hours of disputes instead of single markets (199 hours) gives a 95% interval of 16.6% to 35.0%. The same resampling for lines vs binary gives a difference of -10.7 points with an interval of -25.7 to +7.9: the gap is not established.
+**Disputes come in bursts, so the 24.0% is less precise than 929 markets suggest.** The largest burst is 65 disputes in one minute on one football match (37 exact score questions, 28 spread and total questions). All 65 were still open at the cutoff, awaiting a new round, so they are 65 of the 108 open markets and do not enter the 24.0% or its interval. Among settled markets, one match produced 62 disputes in two consecutive minutes and 98 in total. Resampling whole hours of disputes instead of single markets (199 hours) gives a 95% interval of 16.6% to 35.0%. The same resampling for lines vs binary gives a difference of -10.7 points with an interval of -25.7 to +7.9: the gap is not established.
 
 **Speed counted over all disputed markets, not only the settled ones.** The medians in the table leave out the 108 markets still open. Counting those as not yet settled: on the direct path 70% of disputed markets settled within 4 hours of the dispute and 84% within 24 hours; on the neg-risk route 29% and 49%; on the legacy route 11% and 56%.
 
@@ -108,7 +108,7 @@ Total Polymarket OI at snapshot: $322.6M; the >3-day Polymarket amount is 1.6% o
 Polymarket scheduled MOOV2 (anchor: pre-game for sports, end date otherwise): 1 of 176 favoured at >= 0.95 lost (0.57%, 95% CI 0.1 to 3.1%); 0 of 131 one hour before. But 60% of end-date-anchored markets already priced >= 0.99 or <= 0.01 in the last hour (outcome known before the anchor), so the rate is biased low.
 Kalshi at close: not measurable, because in-play markets close after the outcome is known (223 favoured, 0 lost, by construction). Kalshi one hour before close: 2 of 118 favoured at >= 0.95 lost (1.7%, 95% CI 0.5 to 6.0%). The denominator is the 118 markets that had a trade in that hour and a favourite at >= 0.95; 88 sampled markets with no trade that early are excluded, not counted as non-upsets.
 
-## 6. Preregistered predictions, scored
+## 6. Predictions, scored
 | # | Prediction | Result | Verdict |
 |---|---|---|---|
 | 1 | UMA 60-75%, automated 20-32%, single key <= 10% | UMA ~82.5%, no-resolver (automated candidate) 15.4%, single key none identified | MISS on UMA and automated |
@@ -125,7 +125,7 @@ Kalshi at close: not measurable, because in-play markets close after the outcome
 | 12 | (a) no OI endpoint; (b) Kalshi < $5M, top 5 > 50% | (a) false at gates; (b) $3.48M total (of which $0.70M waiting > 3 days), top 5 = 44% | (a) MISS, (b) half |
 | 13 | last_update_timestamp within 5 min of on-chain settlement | 124/124 matched on the two MOOV2 paths (69 direct, 55 routed; 150/150 counting 26 no-resolver markets), median 0 s; fails on OOV2 | HIT on MOOV2, MISS on OOV2 |
 
-Three predictions missed outright (1, 2, 4), four missed in part (9, 10, 12, 13), and three cannot be scored cleanly (3, 5, 6). Deviation from the preregistration: it named markets resolved 6 to 12 months before the cutoff; the results use the full 12 months, because most markets in the sample closed in the last six. Disputes are much rarer per market than the prior suggested, but when one happens the final outcome differs from the first proposal in about one settled case in four.
+Three predictions missed outright (1, 2, 4), four missed in part (9, 10, 12, 13), and three cannot be scored cleanly (3, 5, 6). Deviation from the written predictions: they named markets resolved 6 to 12 months before the cutoff; the results use the full 12 months, because most markets in the sample closed in the last six. Disputes are much rarer per market than the prior suggested, but when one happens the final outcome differs from the first proposal in about one settled case in four.
 
 ## 7. Corrections after independent review (18 Nov 2026)
 - Disputed-by-category counts did not add up (unmapped questions had been dropped). Recomputed on the final set; they now sum to 1,037.

@@ -12,7 +12,7 @@ Cutoff 2026-11-17 00:00 UTC. Refreshable: the numbers come from the scripts in `
 5. **Money waiting is mostly normal pipeline.** At one snapshot, about $5.8M had waited more than 3 days for settlement across both venues (measured differently on each), and $5.0M of it was one Polymarket election-results market whose end date is election day; without it, about $0.7M. Of the rest of the ~$11M in ended-but-unpaid markets, $3.3M was within 6 hours of closing, $1.1M had waited between 6 hours and 3 days, and $0.8M was on early proposals in markets not yet past their end date.
 6. **A public field is not a count of disputes.** Polymarket's data-api `was_disputed` is true for 29 of 691 direct-path questions disputed on-chain. It may mark only disputes escalated to the UMA vote; that was not tested. Dispute statistics here come from on-chain events only.
 
-Full tables: [RESULTS.md](RESULTS.md). Preregistered predictions and how they scored: [docs/PREDICTIONS.md](docs/PREDICTIONS.md) and section 6 of RESULTS.md (three outright misses, four partial, three that cannot be scored cleanly).
+Full tables: [RESULTS.md](RESULTS.md). Predictions written down in [docs/PREDICTIONS.md](docs/PREDICTIONS.md) and how they scored: section 6 of RESULTS.md (three outright misses, four partial, three that cannot be scored cleanly).
 
 ## Windows (they differ by measure, and every table says which)
 
@@ -60,9 +60,9 @@ I have published other numbers on UMA disputes. They do not match the ones above
 
 `./reproduce.sh` runs offline with standard library Python, and CI runs it on every push. It checks the data files against `data/SHA256SUMS`, runs the unit tests, reruns the class rule on the 100 market check, and recomputes from the shipped data the dispute figures of finding 1 (1,037 disputed, 929 settled, 223 changed, 24.0%, 108 open, 33 set by the vote, the 98 settled disputes on one match, the 65 disputes in one minute and the 16.6% to 35.0% interval over 199 hours) and the lag figures. The dispute times and Polymarket events it needs are in `data/disputes_timing.csv`; how that file was fetched is in `docs/SCHEMA.md`.
 
-It does not cover figures whose inputs are not shipped: the 1.43M denominator and the 0.07% rate, the split by what the vote said (660, 580, 169 of 243), the path mix, the Kalshi intervals, the timestamp validation and the money waiting snapshots. `scripts/15_check_headlines.py` prints that list with the file each one needs.
+It does not cover figures whose inputs are not shipped: the 1.43M denominator and the 0.07% rate, the split by what the vote said (660, 580, 169 of 243), the path mix, the Kalshi intervals, the timestamp validation and the money waiting snapshots. `scripts/15_check_headlines.py` prints that list with the file each one needs. The 1.43M denominator and the 0.07% rate are not recomputable from the published data: a refetch of the same block window from public Polygon RPC on 22 November 2026 counted 1,434,186 questions with a proposal, 41 fewer than the published 1,434,227, and the cause is not identified.
 
-Preregistration: `docs/PREDICTIONS.md` says v1 was written on 2026-11-17 before any collection and revised to v4 the same day after the day 1 gates. No hash of any version was recorded, and the predictions entered git in the same commit as the data (d354661). The order rests on the recorded dates only, not on a hash or on git order.
+Predictions: `docs/PREDICTIONS.md` says v1 was written on 2026-11-17 before any collection and revised to v4 the same day after the day 1 gates. No hash of any version was recorded, and the predictions entered git in the same commit as the data (d354661). The order rests on the recorded dates only, not on a hash or on git order.
 
 ## Files
 
