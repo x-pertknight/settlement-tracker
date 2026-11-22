@@ -145,7 +145,7 @@ Three predictions missed outright (1, 2, 4), four missed in part (9, 10, 12, 13)
 - Class rule check and sensitivity added (section 3). Prediction score reworded: four outright misses and four partial, instead of "six clear misses". Kalshi snapshot total: see section 9.
 
 ## 9. Further corrections after review (18 Nov 2026)
-The published repo was rechecked three times: the numbers, the method, and how an informed reader would read it. The dispute table, path mix, population estimate, lag table and Kalshi intervals were recomputed independently and reproduce. What changed:
+The published repo was rechecked three times: the numbers, the method, and how an informed reader would read it. The dispute table, path mix, population estimate, lag table and Kalshi intervals were recomputed and reproduce. What changed:
 - **Cross-venue speed comparison withdrawn.** Polymarket's end date is kickoff for sports, midday for weather and start of day for most politics, so its lag includes the event itself; Kalshi's close is roughly when the outcome is known. Predictions 5 and 6 rescored as not testable.
 - **Kalshi category figures for economics, entertainment and politics withdrawn**: each rests on one settlement batch (a single close minute).
 - **Disputes split by the vote** (section 2): 660 of 1,037 were voted "too early"; the 24.0% mixes 5.2% in those with 70% where the vote ruled on the facts.
