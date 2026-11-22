@@ -127,7 +127,7 @@ Kalshi at close: not measurable, because in-play markets close after the outcome
 
 Three predictions missed outright (1, 2, 4), four missed in part (9, 10, 12, 13), and three cannot be scored cleanly (3, 5, 6). Deviation from the written predictions: they named markets resolved 6 to 12 months before the cutoff; the results use the full 12 months, because most markets in the sample closed in the last six. Disputes are much rarer per market than the prior suggested, but when one happens the final outcome differs from the first proposal in about one settled case in four.
 
-## 7. Corrections after independent review (18 Nov 2026)
+## 7. Corrections after review (18 Nov 2026)
 - Disputed-by-category counts did not add up (unmapped questions had been dropped). Recomputed on the final set; they now sum to 1,037.
 - Validation denominator came from an earlier intermediate set (657). Recomputed on the final set: 635 / 635 direct.
 - Line vs binary dispute ratio: 1.82x mixed a full-year base with a 37-day numerator. Same-window ratio is 0.98x.
@@ -144,8 +144,8 @@ Three predictions missed outright (1, 2, 4), four missed in part (9, 10, 12, 13)
 - Classifier: month names are now matched as whole words ("by market cap" had been read as "by" + March). Three markets move from by-date to scheduled; none enters the lag (two are on the OOV2 route, one has a padded end date), so no lag figure changes. Padded-end-date count is now 377 of 1,714.
 - Class rule check and sensitivity added (section 3). Prediction score reworded: four outright misses and four partial, instead of "six clear misses". Kalshi snapshot total: see section 9.
 
-## 9. Further corrections after independent review (18 Nov 2026)
-The published repo was checked independently three times: the numbers, the method, and how an informed reader would read it. The dispute table, path mix, population estimate, lag table and Kalshi intervals were recomputed independently and reproduce. What changed:
+## 9. Further corrections after review (18 Nov 2026)
+The published repo was rechecked three times: the numbers, the method, and how an informed reader would read it. The dispute table, path mix, population estimate, lag table and Kalshi intervals were recomputed independently and reproduce. What changed:
 - **Cross-venue speed comparison withdrawn.** Polymarket's end date is kickoff for sports, midday for weather and start of day for most politics, so its lag includes the event itself; Kalshi's close is roughly when the outcome is known. Predictions 5 and 6 rescored as not testable.
 - **Kalshi category figures for economics, entertainment and politics withdrawn**: each rests on one settlement batch (a single close minute).
 - **Disputes split by the vote** (section 2): 660 of 1,037 were voted "too early"; the 24.0% mixes 5.2% in those with 70% where the vote ruled on the facts.
