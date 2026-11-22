@@ -62,7 +62,7 @@ I have published other numbers on UMA disputes. They do not match the ones above
 
 It does not cover figures whose inputs are not shipped: the 1.43M denominator and the 0.07% rate, the split by what the vote said (660, 580, 169 of 243), the path mix, the Kalshi intervals, the timestamp validation and the money waiting snapshots. `scripts/15_check_headlines.py` prints that list with the file each one needs. The 1.43M denominator and the 0.07% rate are not recomputable from the published data: a refetch of the same block window from public Polygon RPC on 22 November 2026 counted 1,434,186 questions with a proposal, 41 fewer than the published 1,434,227, and the cause is not identified.
 
-Predictions: `docs/PREDICTIONS.md` says v1 was written on 2026-11-17 before any collection and revised to v4 the same day after the day 1 gates. No hash of any version was recorded, and the predictions entered git in the same commit as the data (d354661). The order rests on the recorded dates only, not on a hash or on git order.
+Predictions: they are written down in `docs/PREDICTIONS.md` and scored, misses included; the file holds four versions, all dated 2026-11-17. No hash was recorded and they entered git with the results (d354661).
 
 ## Files
 
