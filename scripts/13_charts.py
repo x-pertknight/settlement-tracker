@@ -51,7 +51,7 @@ ax.xaxis.set_major_formatter(FuncFormatter(lambda v, _: f"{v:.0f}%"))
 finish(fig, "Disputed Polymarket markets: how often the final outcome differs from the first proposal",
        "Of disputed markets that had settled by 17 Nov 2026 (929 of 1,037; 108 still open are not counted), the share whose final outcome "
        "differs from the first proposed answer, split by what the UMA vote said about the disputed proposal. On-chain UMA events, 11 Oct to 17 Nov 2026. "
-       "Disputes are 0.07% of 1.43M questions proposed in the same window. All: 95% interval 17% to 35% (disputes come in bursts).",
+       "Disputes are 0.07% of 1.43M questions proposed in the same window. All: 95% interval 16.6% to 35.0% (disputes come in bursts).",
        "2_disputes.png")
 
 # 3. Median lag by category. Polymarket: data/stage7/s7_pm_lag.json pm_lag_by_cat. Kalshi: data/stage4/kalshi_trades.jsonl.gz.
